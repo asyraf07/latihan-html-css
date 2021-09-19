@@ -1,0 +1,38 @@
+.card {
+  border-radius: 15px;
+  text-align: justify;
+  margin: 70px auto;
+  max-width: 1000px;
+  padding: 50px;
+  box-shadow: 5px 5px 15px gray;
+}
+
+img {
+  width: 400px;
+  margin: 10px;
+}
+
+.float {
+  float: left;
+}
+.float-r {
+  float: right;
+}
+
+.clear::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  color: white;
+  background-color: green;
+  height: 20px;
+}
+
+li {
+  float: left;
+  list-style: none;
+  margin: 0px 20px;
+}

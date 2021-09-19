@@ -1,0 +1,66 @@
+* {
+  /* border: 10px dotted yellowgreen; */
+  box-sizing: border-box;
+}
+
+.kotak {
+  /* display: inline-block; */
+  position: relative;
+  /* left: 100px;
+  top: 100px; */
+  /* display: grid;
+  place-content: center; */
+
+  background-color: red;
+  max-width: 900px;
+  height: 900px;
+}
+
+.kotak2 {
+  /* margin-left: 150px; */
+  /* display: none; */
+  /* visibility: hidden; */
+  /* position: absolute; */
+  /* right: 0px;
+  bottom: 0px; */
+  /* margin-top: 20%;
+  margin-left: 10%;
+  margin-bottom: 20px; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: auto; */
+
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  /* z-index: 7; */
+}
+
+.kotak3 {
+  /* margin-left: 150px; */
+  /* position: absolute; */
+  right: 100px;
+  /* bottom: 0px; */
+
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+}
+
+.panah {
+  position: fixed;
+  z-index: 5;
+  right: 70px;
+  /* bottom: 30px; */
+
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

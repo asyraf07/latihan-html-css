@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="./assets/css/modal.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-galery">
+        <div class="img-item">
+          <img src="./assets/img/Background zoom.png" alt="" />
+        </div>
+
+        <div class="img-item">
+          <img src="./assets/img/map.jpg" alt="" />
+        </div>
+
+        <div class="img-item">
+          <img src="./assets/img/Background zoom.png" alt="" />
+        </div>
+
+        <div class="img-item">
+          <img src="./assets/img/map.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+      <span onclick="closeModal()" class="close">&times;</span>
+      <div class="img-show">
+        <img src="./assets/img/Background zoom.png" alt="" />
+      </div>
+    </div>
+
+    <script src="./assets/js/modal.js"></script>
+  </body>
+</html>

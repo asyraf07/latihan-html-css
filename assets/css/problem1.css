@@ -1,0 +1,25 @@
+body {
+  height: 100%;
+}
+
+/* Kalau ingin menggunakan
+max/min pada width/height perhatikan default value nya */
+.container {
+  position: relative;
+  max-width: 700px;
+  min-height: 700px;
+  background-color: red;
+}
+
+/* Element dengan position absolute maka
+displaynya akan berubah jadi inline-block */
+.kotak {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
